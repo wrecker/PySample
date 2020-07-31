@@ -1,8 +1,13 @@
 name: Echo 
 on:
-  push:
-    branches: master
   pull_request:
+  check_run:
+    types: 
+    - rerequested
+    - requested_action
+  check_suite:
+    types:
+    - rerequested
 jobs:
   test:
     runs-on: ubuntu-latest
