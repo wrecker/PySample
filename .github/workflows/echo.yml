@@ -1,0 +1,15 @@
+name: Echo 
+on:
+  push:
+    branches: master
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: Dummy Echo
+    steps:
+      - name: Echo Variables
+        run: |
+          echo "WORKFLOW: ${GITHUB_WORKFLOW}"
+          echo "RUN ID: ${GITHUB_RUN_ID}"
+          echo "RUN # : ${GITHUB_RUN_NUMBER}"
