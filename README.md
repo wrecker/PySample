@@ -4,3 +4,5 @@ A sample python project with tests and tox.ini. I created this as a testbed whil
 developing some features for [PyGithub](https://github.com/PyGithub/PyGithub)
 
 ## TODOs
+* Check-suite status
+
