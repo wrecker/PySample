@@ -1,0 +1,13 @@
+*.pyc
+.eggs/
+.python-version
+
+/dist/
+/build/
+/MANIFEST
+/.coverage
+/coverage.xml
+/.idea
+.vscode*
+.venv
+.tox/
